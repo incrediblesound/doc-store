@@ -42,8 +42,8 @@ Sets the value at the given key. Key is optional if given in constructor
 
 OPTIONS
 
-overwrite: seting overwrite to false will only set value if current value is null or undefined
-flush: setting flush to false will prevent docStore from saving to disk after call to set()
+overwrite: seting overwrite to false will only set value if current value is null or undefined   
+flush: setting flush to false will prevent docStore from saving to disk after call to set()   
 
 ```javascript
 docStore.set({ name: 'john', age: 31 })
